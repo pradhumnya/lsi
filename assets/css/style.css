@@ -484,7 +484,7 @@ header a.logo img {max-height:35px; max-width: 100px;vertical-align: sub;}
     z-index: 1;
 }
 
-.center-logo .navbar-nav .nav-link:nth-child(5){
+.center-logo .navbar-nav .nav-link:nth-child(4){
     margin-left: auto;
 }
 header .center-logo a.logo img {max-width: 130px;}
