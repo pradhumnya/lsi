@@ -699,16 +699,17 @@ button:hover .button-text {
                             <div class="signup">
                                 <h2 class="form-title" id="signup" ><span>or</span>Sign up</h2>
                                 <div class="form-holder">
-                                    <input type="text" class="input" placeholder="Name" />
+                                    <input type="text" class="input" placeholder="Name" required />
                                     <input type="email" class="input" placeholder="Email" />
-                                    <select name="gender" id="gender" class="input" style="background-color: #fff; color: #969292;">
+                                    <select name="gender" id="gender" class="input" style="background-color: #FFFFFF; color: rgb(195,195,195); padding-left: 11px;" required>
+                                        <option value="" disabled selected>Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
                                         <option value="Other">Other</option>
                                       </select>
-                                    <input type="city" class="input" placeholder="City" />
-                                    <input type="number" class="input" placeholder="Age" />
-                                    <input type="password" class="input" placeholder="Password" />
+                                    <input type="city" class="input" placeholder="City" required />
+                                    <input type="number" class="input" placeholder="Age" required />
+                                    <input type="password" class="input" placeholder="Password" required />
                                 </div>
                                 <button class="submit-btn">Sign up</button>
                             </div>
@@ -716,8 +717,8 @@ button:hover .button-text {
                                 <div class="center">
                                     <h2 class="form-title" id="login" ><span>or</span>Log in</h2>
                                     <div class="form-holder">
-                                        <input type="email" class="input" placeholder="Email" />
-                                        <input type="password" class="input" placeholder="Password" />
+                                        <input type="email" class="input" placeholder="Email" required/>
+                                        <input type="password" class="input" placeholder="Password" required/>
                                     </div>
                                     <button class="submit-btn">Log in</button>
                                 </div>
